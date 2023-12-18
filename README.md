@@ -13,7 +13,7 @@ Will be installing each component with the help of the Kubeadm tool but before t
 
 ![Screenshot 2023-12-15 110700](https://github.com/AdarshIITDH/Kubernetes/assets/60352729/2388eda1-0530-4f65-b359-1372eef5bbb1)
 
-
+Firstly will be installing the Container run time (CRI), for this demonstration Docker is being used.
 
 
 
