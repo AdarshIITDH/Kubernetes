@@ -41,7 +41,9 @@ sudo usermod -aG docker $USER
 ```
 sudo docker pull hello-world
 ```
+WOW! CRI is Installed 
 
+### Kubernetes Installation with Kubeadm
 
 
 
