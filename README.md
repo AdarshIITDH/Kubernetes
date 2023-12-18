@@ -54,8 +54,10 @@ To install Kubernetes on your Ubuntu machine, make sure it meets the following r
 Let’s start with the step-by-step process on how to install Kubernetes on Ubuntu.
 
 1. Disabling swap
-
-
+```
+sudo swapoff - a
+sudo sed -i '/ swap / s/^/#/' /etc/fstab
+```
 
 
 
