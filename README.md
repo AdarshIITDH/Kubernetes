@@ -45,6 +45,16 @@ WOW! CRI is Installed
 
 ### Kubernetes Installation with Kubeadm
 
+To install Kubernetes on your Ubuntu machine, make sure it meets the following requirements:
+ - 2 CPUs
+ - At least 2GB of RAM
+ - At least 2 GB of Disk Space
+ - A reliable internet connection
+   
+Let’s start with the step-by-step process on how to install Kubernetes on Ubuntu.
+
+1. Disabling swap
+
 
 
 
