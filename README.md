@@ -58,6 +58,31 @@ Let’s start with the step-by-step process on how to install Kubernetes on Ubun
 sudo swapoff - a
 sudo sed -i '/ swap / s/^/#/' /etc/fstab
 ```
+2. Set up hostnames
+We are setting up the hostname of master node and worker node.
+```
+sudo hostnamectl set-hostname "master-node"
+exec bash
+```
+on worker
+```
+sudo hostnamectl set-hostname "worker-node1"
+```
+
+3. Update the /etc/hosts File for Hostname Resolution
+
+We have to map hostnames to their IP addresses as well. You should update the /etc/hosts file of all nodes(or at least of the master node), as shown below
+```
+sudo nano /etc/hosts
+10.0.0.2 master-node  
+10.0.0.3 worker-node1
+```
+
+
+
+
+
+
 
 
 
